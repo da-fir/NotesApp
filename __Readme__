@@ -4,26 +4,17 @@ This project uses Swift Package Manager (SPM) for dependency management, specifi
 
 Clone the Repository:
 
-git clone https://github.com/YourUsername/YourProjectName.git
-cd YourProjectName
+git clone https://github.com/da-fir/NotesApp.git
+cd NotesApp
 Open the Project in Xcode:
 Open the .xcodeproj file in Xcode.
-
-Add Realm Dependency:
-
-Go to File > Swift Packages > Add Package Dependency.
-Enter the following URL for the Realm repository:
-text
-Copy
-https://github.com/realm/realm-cocoa.git
-Choose the version you want to install, typically the latest version.
-Build the Project:
 
 Make sure all dependencies are installed and build the project to ensure everything is set up correctly.
 Run the App and Tests:
 
 Use the Xcode simulator or a real device to run the app.
 To run unit tests, use Cmd + U or navigate to the test section in the Xcode UI.
+
 Architecture Overview
 This app follows the MVVM (Model-View-ViewModel) architecture. The main components are:
 
